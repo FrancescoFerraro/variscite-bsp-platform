@@ -9,6 +9,7 @@
   <remote fetch="https://github.com/meta-qt5"      name="QT5"/>
   <remote fetch="https://github.com/sbabic"        name="sbabic"/>
   <remote fetch="https://github.com/varigit"       name="variscite"/>
+  <remote fetch="https://github.com/FrancescoFerraro"       name="ff"/>
 
   <project remote="yocto"     revision="1cefabe0f0a2dd2ca8b6eb83e8e0824b72da941a" upstream="hardknott"   name="poky"                    path="sources/poky"/>
   <project remote="yocto"     revision="470da01b34b538d8b2a9bf9da512b89f4f76c7f9" upstream="hardknott"   name="meta-freescale"          path="sources/meta-freescale"/>
@@ -29,7 +30,7 @@
   <project remote="sbabic"    revision="7c2c51861110aa33497b193f9fb6248196296871" upstream="hardknott"   name="meta-swupdate"           path="sources/meta-swupdate"/>
   <project remote="yocto"     revision="6e0634436b03d8571608d3b80362d36bced6dc11" upstream="hardknott"   name="meta-virtualization"     path="sources/meta-virtualization"/>
   <project remote="variscite" revision="52b217065a56c526e0b99ed0fa46489237bc0fd7" upstream="hardknott"   name="meta-variscite-hab"      path="sources/meta-variscite-hab"/>
-  <project remote="variscite" revision="hardknott"                                upstream="hardknott"   name="meta-variscite-bsp"      path="sources/meta-variscite-bsp"/>
+  <project remote="ff"        revision="a2a2f268225d2818faceb1dd0691bb55af2b5506" upstream="hardknott"   name="meta-variscite-bsp"      path="sources/meta-variscite-bsp"/>
   <project remote="variscite" revision="ae271556e3575d327ecd59e4d6c2deddd9613715" upstream="hardknott"   name="meta-variscite-sdk"      path="sources/meta-variscite-sdk">
     <linkfile src="scripts/var-setup-release.sh" dest="var-setup-release.sh"/>
   </project>
