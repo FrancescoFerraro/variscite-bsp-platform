@@ -14,7 +14,7 @@
 <project path="vendor/variscite/kernel_imx" name="linux-imx" remote="var-github" revision="develop_android-13.0.0_2.2.0-var01_RND-1801_imx8mn_kport" />
 <project path="vendor/variscite/uboot-imx" name="uboot-imx" remote="var-github" revision="develop_lf_v2023.04_var02_RND-1800_8mn-android-13.0.0_2.2.0" />
 <project path="device/variscite/" name="MX6x-android" remote="var-github" revision="develop_android-13.0.0_2.2.0-var01_RND-1798" />
-<project path="vendor/variscite/can-utils" name="linux-can/can-utils" remote="github" revision="8a2619c68d68e613085ac2103ea32816d92c4a4c" />
+<project path="vendor/variscite/can-utils" name="linux-can/can-utils" remote="github" revision="c41f9cb21b49a03ec80cfe6ef306185de42b0f4f" />
 <project path="vendor/variscite/arm-trusted-firmware" name="imx-atf" remote="var-github" revision="develop_lf_v2.8_var02_RND-1799_8mn-android-13.0.0_2.2.0" />
 
 <project path="external/wireless-regdb" name="wireless-regdb" remote="wireless-regdb" revision="refs/heads/master" />
