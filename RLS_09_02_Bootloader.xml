@@ -5,11 +5,9 @@
   <remote name="github" fetch="https://github.com"/>
   <default remote="varigit" sync-j="4"/>
   
-  <project name="atf/arm-trusted-firmware.git" path="arm-trusted-firmware" revision="refs/tags/09.02.00.009" remote="git-ti-com" />
-  <project name="security-development-tools/core-secdev-k3.git" path="core-secdev-k3" revision="bba9cabaeee96f7f287385188ff289b46769a4bf" remote="git-ti-com" />
-  <project name="k3-image-gen/k3-image-gen.git" path="k3-image-gen" revision="refs/tags/09.02.00.009" remote="git-ti-com"/>
-  <project name="OP-TEE/optee_os" path="optee_os" revision="refs/tags/09.02.00.009" remote="github" />
+  <project name="atf/arm-trusted-firmware.git" path="arm-trusted-firmware" revision="09.02.00.009" remote="git-ti-com" />
+  <project name="OP-TEE/optee_os" path="optee_os" revision="09.02.00.009" remote="github" />
   <project name="ti-u-boot" path="ti-u-boot" remote="varigit" revision="1bab5e3e9e0d0f9f105dae77aa419d62c64d3207" upstream="develop_ti-u-boot-2023.04_android_09.02.00.009_var01_RND-1907" dest-branch="develop_ti-u-boot-2023.04_android_09.02.00.009_var01_RND-1907"/>
-  <project name="processor-firmware/ti-linux-firmware.git" path="ti-linux-firmware" revision="refs/tags/09.02.00.009" remote="git-ti-com"/>
+  <project name="processor-firmware/ti-linux-firmware.git" path="ti-linux-firmware" revision="09.02.00.009" remote="git-ti-com"/>
 
 </manifest>
