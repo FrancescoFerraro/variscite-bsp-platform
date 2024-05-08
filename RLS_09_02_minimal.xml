@@ -7,7 +7,7 @@
   
   <default remote="aosp" revision="refs/tags/android-14.0.0_r19" sync-j="4"/>
   
-  <project name="device-variscite-am62x" path="device/variscite/am62x_var_som" remote="varigit" revision="3376a9b0cac6bcf7a17b4b4468522379b1e1b1dc" upstream="develop_android14-release-var01_RND-1907_am62" dest-branch="develop_android14-release-var01_RND-1907_am62"/>
+  <project name="device-variscite-am62x" path="device/variscite" remote="varigit" revision="3376a9b0cac6bcf7a17b4b4468522379b1e1b1dc" upstream="develop_android14-release-var01_RND-1907_am62" dest-branch="develop_android14-release-var01_RND-1907_am62"/>
   <project name="bcm_4343w_fw" path="vendor/variscite/bcm_4343w_fw" remote="varigit" revision="11.39.0.18" />
   <project name="linux-can/can-utils" path="vendor/opensource/can-utils" remote="github" revision="30a46d72bdacfdccf4686941228c0639cf8ebe89" />
 </manifest>
