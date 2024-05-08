@@ -14,7 +14,7 @@
   <project name="android/device-ti-am62x" path="device/ti/am62x" remote="git-ti-com" revision="70a3161f12e2685c0e9eecbdf237ac1d56e5cb09" upstream="d-android14-release" dest-branch="d-android14-release" groups="device,ti"/>
   <project name="android/device-ti-am62x-kernel" path="device/ti/am62x-kernel" remote="git-ti-com" revision="e3c2c00f63b96e16161a064455fe656a00e1d9df" upstream="d-android14-release" dest-branch="d-android14-release" groups="device,ti"/>
   <project name="device-variscite-am62x" path="device/variscite" remote="varigit" revision="3376a9b0cac6bcf7a17b4b4468522379b1e1b1dc" upstream="develop_android14-release-var01_RND-1907_am62" dest-branch="develop_android14-release-var01_RND-1907_am62"/>
-  <project name="bcm_4343w_fw" path="vendor/variscite/bcm_4343w_fw" remote="varigit" revision="11.39.0.18" />
+  <project name="bcm_4343w_fw" path="vendor/variscite/bcm_4343w_fw" remote="varigit" revision="11.171.0.24" />
   <project name="android/external-kmgk" path="external/kmgk" remote="git-ti-com" revision="f9897f4a8a152317901b56f7a531514211ee2c3d" upstream="d-android14-release" dest-branch="d-android14-release" groups="ti"/>
   <project name="android/external-libcamera" path="external/libcamera" remote="git-ti-com" revision="85c6ba8dd2347f5fa8ee9400ff1e33abfa1d8f50" upstream="d-android14-release" dest-branch="d-android14-release" groups="ti"/>
   <project name="android/external-libyaml" path="external/libyaml" remote="git-ti-com" revision="82526f06060e20a441f102266096c0d9f34e420a" upstream="d-android14-release" dest-branch="d-android14-release" groups="ti"/>
