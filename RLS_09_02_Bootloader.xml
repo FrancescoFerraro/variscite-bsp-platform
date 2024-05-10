@@ -7,7 +7,7 @@
   
   <project name="atf/arm-trusted-firmware.git" path="arm-trusted-firmware" revision="refs/tags/09.02.00.009" remote="git-ti-com" />
   <project name="optee/ti-optee-os.git" path="optee_os" revision="refs/tags/09.02.00.009" remote="git-ti-com" />
-  <project name="ti-u-boot.git" path="ti-u-boot" revision="1bab5e3e9e0d0f9f105dae77aa419d62c64d3207" upstream="develop_ti-u-boot-2023.04_android_09.02.00.009_var01_RND-1907" dest-branch="develop_ti-u-boot-2023.04_android_09.02.00.009_var01_RND-1907" remote="varigit" />
+  <project name="ti-u-boot.git" path="ti-u-boot" revision="21d783cc7665a15abbcf481c6adaccbe60725656" upstream="develop_ti-u-boot-2023.04_android_09.02.00.009_var01_RND-1907" dest-branch="develop_ti-u-boot-2023.04_android_09.02.00.009_var01_RND-1907" remote="varigit" />
   <project name="processor-firmware/ti-linux-firmware.git" path="ti-linux-firmware" revision="refs/tags/09.02.00.009" remote="git-ti-com"/>
 
 </manifest>
