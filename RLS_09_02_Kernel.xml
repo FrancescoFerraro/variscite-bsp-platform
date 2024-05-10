@@ -28,7 +28,7 @@
   <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="f6d40532273c8bd628b960ecc0970c7294c8d891" upstream="main-kernel-build-2023" dest-branch="main-kernel-build-2023" clone-depth="1"/>
   <project name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11" revision="649eec4416e2ed6298af49a56876772767a0e5ae" upstream="main-kernel-build-2023" dest-branch="main-kernel-build-2023" clone-depth="1"/>
   <project name="platform/system/tools/mkbootimg" path="tools/mkbootimg" revision="615a1fced5f8e2755642d30357674d3bfa21b85e" upstream="main-kernel-build-2023" dest-branch="main-kernel-build-2023"/>
-  <project name="ti-linux-kernel" path="common" remote="varigit" revision="bc46c20624db9290e7e86ba61350ca68cdfe50e0" upstream="develop_ti-android-linux-6.1.y_09.02.00.009_var01_RND-1907" dest-branch="develop_ti-android-linux-6.1.y_09.02.00.009_var01_RND-1907" clone-depth="1"/>
+  <project name="ti-linux-kernel" path="common" remote="varigit" revision="bc46c20624db9290e7e86ba61350ca68cdfe50e0" upstream="develop_ti-android-linux-6.1.y_09.02.00.009_var01_RND-1907" dest-branch="develop_ti-android-linux-6.1.y_09.02.00.009_var01_RND-1907"/>
   <project name="toolchain/prebuilts/ndk/r23" path="prebuilts/ndk-r23" revision="19ac7e4eded12adb99d4f613490dde6dd0e72664" upstream="main-kernel-build-2023" dest-branch="main-kernel-build-2023" clone-depth="1"/>
   
   <superproject name="kernel/superproject" revision="common-android14-6.1-2023-11"/>
