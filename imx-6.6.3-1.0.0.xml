@@ -42,13 +42,13 @@
   <project name="meta-swupdate"             path="sources/meta-swupdate"             remote="sbabic"      revision="990075d1535e77f805883d180b94e05682066c8f" upstream="nanbield"/>
   <project name="meta-variscite-bsp-common" path="sources/meta-variscite-bsp-common" remote="variscite"   revision="23d93560633de5d10c827078b3a5669a71feabc8" upstream="nanbield-var01"/>
   <project name="meta-variscite-bsp-imx"    path="sources/meta-variscite-bsp-imx"    remote="variscite"   revision="c6d14d07b3193be5c19760a6d526ededee027868" upstream="nanbield-var01"/>
-  <project name="meta-variscite-hab"        path="sources/meta-variscite-hab"        remote="variscite"   revision="bb83d798b396d4913839d0965046529ee83b7733" upstream="mickledore-var02"/>
-  <project name="meta-variscite-sdk-common" path="sources/meta-variscite-sdk-common" remote="variscite"   revision="b4e133e3cdd677adfa11a55c5e16c2a0e56ede29" upstream="nanbield-var01"/>
-  <project name="meta-variscite-sdk-imx"    path="sources/meta-variscite-sdk-imx"    remote="variscite"   revision="79ca45e1b286b865d64c0f7b06c2469092f93d30" upstream="nanbield-var01">
+  <project name="meta-variscite-hab"        path="sources/meta-variscite-hab"        remote="variscite"   revision="cda40b5a97aa056b9ee4867b82844b2301c506a2" upstream="nanbield-var01"/>
+  <project name="meta-variscite-sdk-common" path="sources/meta-variscite-sdk-common" remote="variscite"   revision="0030f595a091dd205f726b7f5d141d8060b8891c" upstream="nanbield-var01"/>
+  <project name="meta-variscite-sdk-imx"    path="sources/meta-variscite-sdk-imx"    remote="variscite"   revision="522ac32a28acf1918aaeb51ea6d5f2cecd575b84" upstream="nanbield-var01">
     <linkfile src="scripts/var-setup-release.sh" dest="var-setup-release.sh"/>
     <linkfile src="dynamic-layers/var-debian/scripts/var-setup-debian.sh" dest="var-setup-debian.sh"/>
   </project>
-  <project name="variscite-bsp-base"        path="sources/base"                      remote="variscite"   revision="bfcfca8054c9517436cf5cb77e04bcf2b28ccc19" upstream="mickledore-var01">
+  <project name="variscite-bsp-base"        path="sources/base"                      remote="variscite"   revision="ba9b08e93e8b64b19674c4aee5a9007305f556ab" upstream="nanbield-var01">
     <linkfile src="setup-environment" dest="setup-environment"/>
     <linkfile src="README"            dest="README"/>
   </project>
