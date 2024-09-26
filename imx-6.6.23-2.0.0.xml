@@ -54,5 +54,5 @@
     <linkfile src="README"            dest="README"/>
     <linkfile src="scripts/var-start-container.sh"            dest="var-start-container.sh"/>
   </project>
-  <project name="var-host-docker-containers"             path="sources/var-host-docker-containers"             remote="variscite"      revision="1eb493bda968a421390f5c53cb3153fd4068e882" upstream="dev_scarthgap_6.6.23-2.0.0_var01_RND-2173_add-docker-script"/>
+  <project name="var-host-docker-containers"             path="sources/var-host-docker-containers"             remote="dev"      revision="1eb493bda968a421390f5c53cb3153fd4068e882" upstream="dev_scarthgap_6.6.23-2.0.0_var01_RND-2173_add-docker-script"/>
 </manifest>
