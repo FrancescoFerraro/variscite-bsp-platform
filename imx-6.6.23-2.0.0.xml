@@ -34,19 +34,19 @@
   <project name="meta-timesys"              path="sources/meta-timesys"              remote="timesys"     revision="b96d8de949939ad08094f71ed6ed4f88eaf41d5e" upstream="master"/>
   <project name="meta-virtualization"       path="sources/meta-virtualization"       remote="yp"          revision="1a547c0aa0d75c4143cbb66de6e653d51cdc8bda" upstream="scarthgap"/>
 
-  <project name="meta-imx"                  path="sources/meta-imx"                  remote="imx"         revision="239073c47124f41f46581871afbde643f48d6a3b">
+  <project name="meta-imx"                  path="sources/meta-imx"                  remote="imx"         revision="refs/tags/rel_imx_6.6.23_2.0.0"           upstream="scarthgap-6.6.23-2.0.0">
      <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
      <linkfile src="README"                     dest="README-IMXBSP"/>
   </project>
-  <project name="meta-matter"               path="sources/meta-matter"               remote="imx"         revision="imx_matter_2024_q1-post" />
-  <project name="meta-nxp-demo-experience"  path="sources/meta-nxp-demo-experience"  remote="imx-support" revision="scarthgap-6.6.23-2.0.0" />
+  <project name="meta-matter"               path="sources/meta-matter"               remote="imx"         revision="refs/tags/rel_imx_6.6.23-2.0.0"           upstream="imx_matter_2024_q1-post" />
+  <project name="meta-nxp-demo-experience"  path="sources/meta-nxp-demo-experience"  remote="imx-support" revision="refs/tags/rel_imx_6.6.23_2.0.0"           upstream="scarthgap-6.6.23-2.0.0" />
 
   <project name="meta-swupdate"             path="sources/meta-swupdate"             remote="sbabic"      revision="1600c74ed6d9eabc15a680a7a4cb359aa537bd65" upstream="scarthgap"/>
-  <project name="meta-variscite-bsp-common" path="sources/meta-variscite-bsp-common" remote="dev"         revision="0f91733bbc2fff43428c06168395c154d1f35bb7" upstream="scarthgap_6.6.23-2.0.0_var01"/>
-  <project name="meta-variscite-bsp-imx"    path="sources/meta-variscite-bsp-imx"    remote="dev"         revision="6969ebb73c2867be82d6901a129fd5da4347b06e" upstream="dev_scarthgap_6.6.23-2.0.0_var01_RND-2095_mx95"/>
-  <project name="meta-variscite-hab"        path="sources/meta-variscite-hab"        remote="dev"         revision="9ed238b5e8ddde2908e690c2561ad25163cfcac6" upstream="dev_scarthgap-var01_RND-2095_mx95"/>
-  <project name="meta-variscite-sdk-common" path="sources/meta-variscite-sdk-common" remote="dev"         revision="7bf9abdc70d2be48bbc9b2fae80f23ba103fb08e" upstream="scarthgap_6.6.23-2.0.0_var01"/>
-  <project name="meta-variscite-sdk-imx"    path="sources/meta-variscite-sdk-imx"    remote="dev"         revision="2ae06ce805d85dcca34e5fd31dcc0c06e65e1637" upstream="dev_scarthgap_6.6.23-2.0.0_var01_RND-2095_mx95">
+  <project name="meta-variscite-bsp-common" path="sources/meta-variscite-bsp-common" remote="variscite"   revision="29cc711192f760849611169422e850a1e2cee97c" upstream="scarthgap_6.6.23-2.0.0_var01"/>
+  <project name="meta-variscite-bsp-imx"    path="sources/meta-variscite-bsp-imx"    remote="variscite"   revision="3b12dfe97e4ca175c0b8fba5cb35db42965ff9cf" upstream="scarthgap_6.6.23-2.0.0_var01"/>
+  <project name="meta-variscite-hab"        path="sources/meta-variscite-hab"        remote="variscite"   revision="bb83d798b396d4913839d0965046529ee83b7733" upstream="mickledore-var02"/>
+  <project name="meta-variscite-sdk-common" path="sources/meta-variscite-sdk-common" remote="variscite"   revision="7bf9abdc70d2be48bbc9b2fae80f23ba103fb08e" upstream="scarthgap_6.6.23-2.0.0_var01"/>
+  <project name="meta-variscite-sdk-imx"    path="sources/meta-variscite-sdk-imx"    remote="variscite"   revision="2697a12948a6068858ad2e07015a4bec9fd30d47" upstream="scarthgap_6.6.23-2.0.0_var01">
     <linkfile src="scripts/var-setup-release.sh" dest="var-setup-release.sh"/>
   </project>
   <project name="variscite-bsp-base"        path="sources/base"                      remote="variscite"   revision="3caeb0d2948e393e1e1e942d388ca306eb1e3f48" upstream="scarthgap_6.6.23-2.0.0_var01">
